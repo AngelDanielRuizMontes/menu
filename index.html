@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pedido a Domicilio</title>
+  <link rel="shortcut icon" href="../../img/favicon.png" type="image/png" />
+  <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>
+        Menú
+      </h1>
+      <h2>Pide la comida más sana a domicilio</h2>
+    </div>
+    <div id="content" class="caja-destacada">
+
+      <br>
+      <form method="post" action="./php/ejer01.php">
+        <div style="display: flex; width: 100%; justify-content: center;">
+          <div>
+            <img src="img/hamburguesa.png" width="200px"><br>
+            <input type="number" name="hamburguesa" value="0" min="0">
+          </div>
+          <div>
+            <img src="img/pasta.png" width="200px"><br>
+            <input type="number" name="pasta" value="0" min="0">
+          </div>
+          <div>
+            <img src="img/pizza.png" width="200px"><br>
+            <input type="number" name="pizza" value="0" min="0">
+          </div>
+          <div>
+            <img src="img/quinoa.png" width="200px"><br>
+            <input type="number" name="quinoa" value="0" min="0">
+          </div>
+        </div>
+        <div style="display: flex; width: 100%; justify-content: center;">
+          <div>
+            <img src="img/agua.png" width="100px"><br>
+            <input type="number" name="agua" value="0" min="0">
+          </div>
+          <div>
+            <img src="img/cerveza.png" width="100px"><br>
+            <input type="number" name="cerveza" value="0" min="0">
+          </div>
+          <div>
+            <img src="img/refresco.png" width="100px"><br>
+            <input type="number" name="refresco" value="0" min="0">
+          </div>
+        </div>
+
+        <br>
+        <div style="display: flex; width: 100%; justify-content: center;">
+          <button style="text-align: center" type="submit">Hacer pedido</button>
+        </div>
+      </form>
+      </br>
+    </div>
+    <div id="footer">
+      ANGEL DANIEL RUIZ MONTES
+    </div>
+  </div>
+</body>
+
+</html>
